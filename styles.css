@@ -1,0 +1,79 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.category {
+	/* height: 20px; */
+	width: 125px;
+	background-color: orange;
+	text-align: center;
+	border-radius: 5px;
+	border-color: crimson;
+	border-style: solid;
+	padding: 5px;
+}
+
+.title {
+	color: rgb(128, 0, 26);
+}
+
+#aboutMe {
+	color: orange;
+	background-color: rgb(128, 0, 26);
+	width: 95px;
+	padding-left: 8px;
+	border-radius: 3px;
+}
+
+.listSection {
+	border-style: solid;
+	border-color: rgb(128, 0, 26);
+	border-radius: 7px;
+	width: 165px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.favBtn {
+	height: 50px;
+	background-color: rgb(255, 213, 0);
+	border-radius: 10px;
+	border-color: rgb(128, 0, 26);
+	border-width: 10px;
+}
